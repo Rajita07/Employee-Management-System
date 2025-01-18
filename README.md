@@ -1,4 +1,4 @@
-### 🏢 Employee Management System
+# 🏢 Employee Management System
 
 Welcome to the Employee Management System project! This Java-based application is designed to help organizations efficiently manage employee data using a robust backend powered by Spring Boot and MySQL.
 
@@ -10,8 +10,7 @@ Follow these steps to set up and run the project on your local machine:
 
 ### Clone the Repository:
 ```bash
-git clone https://github.com/YourUsername/EmployeeManagementSystem.git
-cd EmployeeManagementSystem
+git clone https://github.com/Rajita07/Employee-Management-System.git
 ```
 
 ### Build and Run the Application:
@@ -20,14 +19,10 @@ Make sure you have Maven installed.
 mvn spring-boot:run
 ```
 
-Alternatively, package the application and run the jar file:
+### Run the Application:
 ```bash
-mvn clean package
-java -jar target/EmployeeManagementSystem-0.0.1-SNAPSHOT.jar
+EmployeeManagementSystemApplication.java
 ```
-
----
-
 📂 **Project Structure**
 
 - `src/`: Contains the Java source code files.
@@ -39,7 +34,6 @@ java -jar target/EmployeeManagementSystem-0.0.1-SNAPSHOT.jar
 - `resources/`: Contains configuration files.
   - `application.properties`: Database and application configuration.
 - `database/`: Includes SQL scripts for database setup.
-- `screenshots/`: Screenshots of the application in action.
 
 ---
 
@@ -62,12 +56,6 @@ java -jar target/EmployeeManagementSystem-0.0.1-SNAPSHOT.jar
   - Spring Data JPA
   - Spring Web
   - MySQL Connector
-
----
-
-📷 **Screenshots**
-
-*(Include screenshots of the application to showcase the interface and functionalities)*
 
 ---
 
