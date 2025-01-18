@@ -1,103 +1,86 @@
-# Employee Management System
+🏢 **Employee Management System**
 
-## Description
-The Employee Management System is a Java-based desktop application designed to help organizations manage employee data efficiently. It provides functionalities such as adding, updating, viewing, and removing employee information, along with a secure login system. The application integrates with a MySQL database for persistent data storage.
+Welcome to the Employee Management System project! This Java-based application is designed to help organizations efficiently manage employee data using a robust backend powered by Spring Boot and MySQL.
 
-## Features
-- **Add Employees**: Capture and store details of new employees.
-- **Update Employee Information**: Edit existing employee records.
-- **View Employee Details**: Display employee data in an organized format.
-- **Remove Employees**: Delete employee records from the system.
-- **User Authentication**: Secure login system for accessing the application.
-- **Database Integration**: Stores and retrieves data using MySQL.
+---
 
-## Tech Stack
-- **Programming Language**: Java
-- **Database**: MySQL
-- **IDE**: IntelliJ IDEA / Eclipse
-- **Libraries**:
-  - MySQL Connector
-  - JCalendar
-  - RS2XML (for displaying database tables)
+🚀 **Getting Started**
 
-## Prerequisites
-1. **Java Development Kit (JDK)**: Ensure JDK 8 or later is installed.
-2. **MySQL Server**: Install and configure MySQL Server.
-3. **IDE**: Use IntelliJ IDEA or Eclipse for running the project.
+Follow these steps to set up and run the project on your local machine:
 
-## Installation and Setup
-
-### 1. Clone the Repository
+### Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/employee-management-system.git
-cd employee-management-system
+git clone https://github.com/YourUsername/EmployeeManagementSystem.git
+cd EmployeeManagementSystem
 ```
 
-### 2. Import the Project
-- Open the project in your preferred IDE (IntelliJ IDEA or Eclipse).
-- Ensure the necessary libraries (e.g., MySQL Connector, JCalendar) are configured in the project.
-
-### 3. Set Up the Database
-- Create a MySQL database named `employee_management`.
-- Use the provided SQL scripts (if any) to set up the necessary tables.
-
-### 4. Configure the Database Connection
-- Update the `conn.java` file with your MySQL credentials:
-  ```java
-  String url = "jdbc:mysql://localhost:3306/employee_management";
-  String username = "root";
-  String password = "RPRaundal$@03";
-  ```
-
-### 5. Run the Application
-- Locate the `Main_class.java` file and run it to start the application.
-
-## Usage
-1. Launch the application.
-2. Log in using your credentials.
-3. Navigate through the options:
-   - Add a new employee.
-   - View existing employees.
-   - Update employee details.
-   - Remove an employee.
-4. Log out when finished.
-
-## Project Structure
-```
-project-root
-|
-|-- src
-|   |-- employee.management.system
-|       |-- AddEmployee.java
-|       |-- conn.java
-|       |-- Login.java
-|       |-- Main_class.java
-|       |-- RemoveEmployee.java
-|       |-- Splash.java
-|       |-- UpdateEmployee.java
-|       |-- View_Employee.java
-|
-|-- out
-|-- .idea
-|-- .classpath
-|-- .project
+### Build and Run the Application:
+Make sure you have Maven installed.
+```bash
+mvn spring-boot:run
 ```
 
-## Screenshots
-- 1 Screenshot
+Alternatively, package the application and run the jar file:
+```bash
+mvn clean package
+java -jar target/EmployeeManagementSystem-0.0.1-SNAPSHOT.jar
+```
 
-## Future Enhancements
-- Add role-based access control for admins and employees.
-- Include search functionality to filter employee records.
-- Integrate data export to CSV or Excel files.
-- Improve the UI with modern JavaFX components.
+---
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+📂 **Project Structure**
 
-## Contact
+- `src/`: Contains the Java source code files.
+  - `controller/`: Handles API endpoints for employee management.
+  - `service/`: Contains business logic for employee operations.
+  - `repository/`: Manages data access using Spring Data JPA.
+  - `model/`: Defines the entity classes for employees.
+  - `EmployeeManagementSystemApplication.java`: Entry point for the Spring Boot application.
+- `resources/`: Contains configuration files.
+  - `application.properties`: Database and application configuration.
+- `database/`: Includes SQL scripts for database setup.
+- `screenshots/`: Screenshots of the application in action.
+
+---
+
+📌 **Features**
+
+- RESTful API for managing employees
+- Add, Update, View, and Remove Employee Records
+- Secure Database Integration using MySQL
+- User-Friendly Interface (future UI integration)
+- Role-Based Access Control (future enhancement)
+
+---
+
+📌 **Technologies Used**
+
+- **Backend Framework**: Spring Boot
+- **Database**: MySQL
+- **Build Tool**: Maven
+- **Libraries and Tools**:
+  - Spring Data JPA
+  - Spring Web
+  - MySQL Connector
+
+---
+
+📷 **Screenshots**
+
+*(Include screenshots of the application to showcase the interface and functionalities)*
+
+---
+
+🤝 **Contribution**
+
+Feel free to submit issues and pull requests to improve the project.
+
+---
+
+📬 **Contact**
+
 For any queries, feel free to reach out:
-- **Name**: [Rajita]
+- **Name**: [Rajita Raundal]
 - **Email**: [rajita.raundal.07@gmail.com]
 - **GitHub**: [Rajita07]
 
