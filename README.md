@@ -1,4 +1,4 @@
-🏢 **Employee Management System**
+### 🏢 Employee Management System
 
 Welcome to the Employee Management System project! This Java-based application is designed to help organizations efficiently manage employee data using a robust backend powered by Spring Boot and MySQL.
 
@@ -43,7 +43,7 @@ java -jar target/EmployeeManagementSystem-0.0.1-SNAPSHOT.jar
 
 ---
 
-📌 **Features**
+📌 ***Features***
 
 - RESTful API for managing employees
 - Add, Update, View, and Remove Employee Records
@@ -53,7 +53,7 @@ java -jar target/EmployeeManagementSystem-0.0.1-SNAPSHOT.jar
 
 ---
 
-📌 **Technologies Used**
+📌 ***Technologies Used***
 
 - **Backend Framework**: Spring Boot
 - **Database**: MySQL
